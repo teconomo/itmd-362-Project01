@@ -14,12 +14,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* --FONT-- */
 /* Type is set to MAJOR THIRD from Modular Scale */
 /* Instead of typing at each line of code, I will summarize the conversions here to make it easier*/
-/* (BASE= 1.125em = 18px)
-1.25em = 22.5px @ Base
+/* (BASE= 1.25em = 20px / 16px)
+Line height  = 1.2em = 24px @ Base
 1.953em = 35.156px @ Base
-0.75em = 22.5px @ 35.156px em
 1.563em = 28.125px @ Base
-0.625em = 11.25px @ Base
+1.2em 0.96em @ 19.2px
 */
 
 /* --MAIN BLOCKS-- */
@@ -27,11 +26,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #F0F8FF;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: bold;
   color: #003A63;
-  line-height: 1.25em;
-  text-align: center;
+  line-height: 1.2em;
+  padding: 1.2em 0.96em;
 }
 
 body {
@@ -46,19 +45,26 @@ footer {
 h1 {
   font-family:'Righteous', cursive;
   font-size: 3.052em;
-  padding: 1.25em;
+  padding: 1.2em;
+  text-align: center;
 }
 
 h2 {
   font-family:'Righteous', cursive;
   font-size: 2.441em;
-  padding: 1.25em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
 }
 
 h3 {
   font-family:'Righteous', cursive;
   font-size: 1.953em;
-  padding: 1.25em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
+figure {
+	text-align: center;
 }
 
 form {

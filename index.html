@@ -22,7 +22,10 @@
        </ul>  
      <h3>So, are YOU ready to hit your Fitness Goal?</h3>
   </section>
-  <form id="fitnessform" method="get" action="null">
+  <form id="fitnessform" method="get" action="#null">
+
+    <p id="submission"></p>
+
     <ul>
       <li>
         <label for="name">Full Name: </label>
@@ -49,7 +52,7 @@
         <input type="checkbox" name="goal" id="goal3"> Maintenance 
         <input type="checkbox" name="goal" id="goal4"> Other
       </li>
-      <input type="submit" name="submit" id="submit" value="SIGN UP"/>
+      <input type="submit" name="submit" id="submit" value="SIGN UP" onclick="myGreeting()"/>
     </ul>
   </form>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

@@ -3,3 +3,7 @@ $(document).ready(function () {
 		e.preventDefault();
 	})
 })
+
+function myGreeting() {
+	document.getElementById("submission").innerHTML = "Congratulations! Welcome to the Team";
+}

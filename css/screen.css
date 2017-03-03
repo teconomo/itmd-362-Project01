@@ -67,6 +67,27 @@ figure {
 	text-align: center;
 }
 
+/* -- FORM -- */
+
+label {
+	display: block;
+	color: #3333A2;
+	padding-bottom: 0.41em;
+	padding-top: 0.41em;
+}
+
 form {
   background-color: #62bcfa;
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  border-style: ridge;
+  border-width: 0.41em;
+  padding: 1.2em;
+}
+
+/* -- SUBMIT -- */
+
+#submit {
+  margin: 1.2em;
 }

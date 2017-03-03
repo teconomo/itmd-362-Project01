@@ -64,16 +64,16 @@ h3 {
 }
 
 figure {
-	text-align: center;
+  text-align: center;
 }
 
 /* -- FORM -- */
 
 label {
-	display: block;
-	color: #3333A2;
-	padding-bottom: 0.41em;
-	padding-top: 0.41em;
+  display: block;
+  color: #3333A2;
+  padding-bottom: 0.41em;
+  padding-top: 0.41em;
 }
 
 form {
@@ -81,13 +81,25 @@ form {
   box-sizing: border-box;
   height: 100%;
   width: 50%;
-  border-style: ridge;
+  border-style: solid;
   border-width: 0.41em;
   padding: 1.2em;
+}
+
+/* -- INPUT -- */
+
+input {
+  border: solid;
+  border-color: #3333A2;
+  padding: 0.41em;
 }
 
 /* -- SUBMIT -- */
 
 #submit {
   margin: 1.2em;
+  color: maroon;
+  border-color: maroon;
+  border: solid;
+  font-family:'Righteous', cursive;
 }

@@ -247,7 +247,7 @@ figure {
 
 label {
   display: block;
-  color: #EA4848;
+  color: darkred;
   padding-bottom: 0.41em;
   padding-top: 0.41em;
 }
@@ -300,13 +300,23 @@ input {
     line-height: inherit;
   }
 
-  h1 {
+  h1, h2, h3 {
     font-size: 1.953em;
+  }
+
+  h3 {
+    text-align: center;
   }
 
   img {
     margin: auto;
-    width: 60%;
+    max-width: 65%;
+    max-height: 65%;
+  }
+
+  form {
+    margin: auto;
+    width: 100%;
   }
 }
 

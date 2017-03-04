@@ -229,6 +229,7 @@ h2 {
   font-size: 2.441em;
   padding-top: 1.2em;
   padding-bottom: 1.2em;
+  text-decoration: underline;
 }
 
 h3 {
@@ -246,7 +247,7 @@ figure {
 
 label {
   display: block;
-  color: #3333A2;
+  color: #EA4848;
   padding-bottom: 0.41em;
   padding-top: 0.41em;
 }
@@ -259,6 +260,7 @@ form {
   border-style: solid;
   border-width: 0.41em;
   padding: 1.2em;
+  text-align: center;
 }
 
 /* -- INPUT -- */
@@ -289,11 +291,57 @@ input {
 
 /* -- MEDIA STATES -- */
 
-/* -- DEFAULT MEDIA STATE IS FOR 1200px (75em) or higher (laptops/PCs) -- */
+/* -- 1054px @ 16px for Laptops -- */
 
-/* -- 768px @ 16px for Tablet (Specifically iPads) -- */
+@media screen and (min-width: 65.875em) {
+  html {
+    font-size: 1.125em;
+    line-height: inherit;
+  }
 
-@media screen and (min-width: 48em) {
-  
+  h3 {
+    text-align: center;
+  }
+
+  form {
+    margin: auto;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+}
+
+/* -- 774px @ 16px for Tablets and Laptops -- */
+
+@media screen and (min-width: 48.375em) {
+  html {
+    font-size: 1.125em;
+    line-height: inherit;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  form {
+    margin: auto;
+    width: 70%;
+
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+}
+
+/* -- 360px @ 16px for Mobile (Specifically Samsung Galaxy S7) -- */
+
+@media screen and (min-width: 22.5em) {
+	
 }
 

@@ -263,6 +263,10 @@ form {
   text-align: center;
 }
 
+#submission {
+  color: #EA4848;
+}
+
 /* -- INPUT -- */
 
 input {

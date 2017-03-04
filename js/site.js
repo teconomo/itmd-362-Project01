@@ -1,12 +1,9 @@
 $(document).ready(function () {
-
-  $("#fitnessform").on('submit', function (e) {
+  $("#fitnessform").on("submit", function (e) {
   	e.preventDefault();
 	});
-
-  $(#fitnessform).on('submit', function (e) {
-  	document.getElementById("submission").innerHTML = "Thank you!";
-  });
- });
-
-
+  // I am creating a message on submission here
+  $("#fitnessform").on("submit", function (e) {
+  	document.getElementById("submission").innerHTML = "Thank you! Welcome to the Team!";
+    });
+});
